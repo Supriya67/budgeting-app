@@ -6,7 +6,7 @@ import plotly.express as px
 import bcrypt
 
 # connect to DB
-conn = sqlite3.connect('/Users/hemantkumarroy/Desktop/Project folder/Budget_app/budget.db',check_same_thread=False)
+conn = sqlite3.connect('budget.db',check_same_thread=False)
 conn.execute("PRAGMA foreign_keys = ON")
 cur = conn.cursor()
 
