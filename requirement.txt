@@ -1,9 +1,5 @@
-streamlit — for building the UI.
-
-sqlite3 - Databae
-
-bcrypt — for hashing passwords securely.
-
-pandas — for handling data frames and summaries.
-
-plotly — for interactive pie/bar charts.
+streamlit
+pandas
+plotly
+bcrypt
+matplotlib

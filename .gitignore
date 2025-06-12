@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite DB (if needed)
+*.db
+
+# Environment variables
+.env
+
+# Streamlit-specific files
+.streamlit/
+
+# IDE/editor folders
+.vscode/
+.idea/
