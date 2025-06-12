@@ -139,7 +139,6 @@ def dashboard():
             if submitted:
                 add_transaction(st.session_state['user_id'], t_type, category, amount, str(t_date), t_desc)
                 st.success("Transaction added!")
-    st.download_button("📁 Export Transactions", data=filtered_df.to_csv(index=False), file_name="transactions.csv", mime="text/csv")
     
     
 
